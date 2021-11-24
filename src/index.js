@@ -6,9 +6,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 var numbers = [3, 56, 2, 48, 5];
 
-const newNumbers = numbers.map( (number) => {
-    return number * number;
-});
+const newNumbers = numbers.map(number =>  number * number);
 
 console.log(newNumbers);
 
