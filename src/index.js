@@ -6,14 +6,12 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 var numbers = [3, 56, 2, 48, 5];
 
-const newNumbers = numbers.map(number =>  number * number);
+// const newNumbers = numbers.map(number =>  number * number);
+// console.log(newNumbers);
 
-console.log(newNumbers);
-
-////Map -Create a new array by doing something with each item in an array.
-// const newNumbers = numbers.map(function (x) {
-//   return x * 2;
-// });
+//Map -Create a new array by doing something with each item in an array.
+const newNumbers = numbers.map( x => x * 2);
+//console.log(newNumbers);
 
 //////Filter - Create a new array by keeping the items that return true.
 // const newNumbers = numbers.filter(function(num) {
