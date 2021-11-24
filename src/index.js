@@ -22,11 +22,10 @@ var numbers = [3, 56, 2, 48, 5];
 // console.log(newNumber);
 
 
-//Find - find the first item that matches from an array.
-const newNumber = numbers.find(num =>  num > 10);
-console.log(newNumber);
+// //Find - find the first item that matches from an array.
+// const newNumber = numbers.find(num =>  num > 10);
+// console.log(newNumber);
 
-////FindIndex - find the index of the first item that matches.
-// const newNumber = numbers.findIndex(function (num) {
-//   return num > 10;
-// })
+//FindIndex - find the index of the first item that matches.
+const newNumber = numbers.findIndex(num =>  num > 10);
+console.log(newNumber);
